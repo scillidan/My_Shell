@@ -1,0 +1,1 @@
+%HOME%\Bin\Git\bin\bash.exe %HOME%\Bin\multi-git-status\mgitstatus %*

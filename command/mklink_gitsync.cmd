@@ -1,0 +1,1 @@
+mklink git-sync %HOME%\Bin\git-sync\git-sync && echo-cli "git-sync" > .gitignore
