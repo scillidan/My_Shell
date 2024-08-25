@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><XnView_script version="1.0" name="_mask_">
+    <Enhance_detail/>
+    <Sharpen value="30"/>
+    <Saturation red="0" green="0" blue="0" cyan="0" magenta="0" yellow="0" active="false"/>
+    <Adjust brightness="0" contrast="15" gamma="1"/>
+    <Output folder="" filename="_mask_{Filename}" case="0" startIndex="1" format="PNG">
+        <Options overwrite="0" orgDate="false" keepMeta="false" keepICC="false" keepFolder="false" checkFilesize="false" keepParentFolder="false" keepExtension="false" delOrg="false" multipage="false" allPages="false" openExplorer="false" beep="true" openBrowser="false" clearItems="true"/>
+        <PNG level="6" interlaced="false" filter="0"/>
+    </Output>
+</XnView_script>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><XnView_script version="1.0" name="wh800.png">
+    <Resize mode="5" width="800" height="800" unit="0" ratio="true" orientation="false" enlarge="0" resample="7" gamma_correct="false"/>
+    <Canvas_resize mode="0" width="800" height="800" width2="100" height2="100" width3="1" height3="1" unit="0" relative="false" ratio="true" orientation="false" color="#ffffff" colorFlag="false" colorAt="0" alpha="255" position="4"/>
+    <Output folder="" filename="__wh800_{Filename}" case="1" startIndex="1" format="PNG">
+        <Options overwrite="3" orgDate="false" keepMeta="false" keepICC="false" keepFolder="true" checkFilesize="false" keepParentFolder="true" keepExtension="false" delOrg="false" multipage="false" allPages="false" openExplorer="false" beep="true" openBrowser="false" clearItems="true"/>
+        <PNG level="6" interlaced="false" filter="0"/>
+    </Output>
+</XnView_script>

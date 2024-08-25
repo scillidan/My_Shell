@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><XnView_script version="1.0" name="w750b.png">
+    <Resize mode="5" width="740" height="600" unit="0" ratio="true" orientation="false" enlarge="0" resample="7" gamma_correct="false"/>
+    <Border back_color="#ffffff" frame1_radius="0" frame1_color="#f8f8f8" frame1_width="5" frame2_radius="0" frame2_color="#000000" frame2_width="-1" frame3_radius="0" frame3_color="#ffffff" frame3_width="-1" antialias="true"/>
+    <Output folder="" filename="_w750b_{Filename}" case="1" startIndex="1" format="PNG">
+        <Options overwrite="3" orgDate="false" keepMeta="false" keepICC="false" keepFolder="true" checkFilesize="false" keepParentFolder="true" keepExtension="false" delOrg="false" multipage="false" allPages="false" openExplorer="false" beep="true" openBrowser="false" clearItems="true"/>
+        <PNG level="6" interlaced="false" filter="0"/>
+    </Output>
+</XnView_script>

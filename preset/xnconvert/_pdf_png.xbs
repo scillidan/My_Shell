@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><XnView_script version="1.0" name="_pdf_png">
+    <Output folder="" filename="{Filename}" case="1" startIndex="1" format="PNG">
+        <Options overwrite="3" orgDate="false" keepMeta="false" keepICC="false" keepFolder="false" checkFilesize="false" keepParentFolder="true" keepExtension="false" delOrg="false" multipage="false" allPages="false" openExplorer="false" beep="true" openBrowser="false" clearItems="true"/>
+        <PNG level="6" interlaced="false" filter="0"/>
+    </Output>
+</XnView_script>
