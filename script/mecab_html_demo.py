@@ -7,7 +7,7 @@ def main():
     parser = argparse.ArgumentParser(description='Run MeCab with a specified dictionary.')
     parser.add_argument('-d', '--dictionary', type=str, required=True, help='Path to the MeCab dictionary')
     parser.add_argument('input_text', type=str, help='Text to be processed by MeCab')
-    
+
     # Parse the command-line arguments
     args = parser.parse_args()
 

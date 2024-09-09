@@ -1,0 +1,1 @@
+cd C:\Users\User && C:\Users\User\Opt\neovide\neovide.exe --size=1250x720 --frame none --no-tabs --neovim-bin C:\Users\User\AppData\Local\bob\v0.10.0\bin\nvim.exe -- -u "C:\Users\User\AppData\Local\nvim\init.lua" %*
