@@ -1,0 +1,26 @@
+﻿# Tagscanner export script
+
+$file_name %filepath%%artist% - %album% (%year%).cue
+$file_notes Text file (CUE-track) with information from the selected files
+$file_encoding utf-8
+$file_writebom 1
+
+$document_open
+$select %filepath%,0
+REM GENRE $if(%genre%,%genre%,None)
+REM DATE $if(%year%,%year%,0000)
+REM COMMENT $if(%comment%,"%comment%","None")
+PERFORMER $if(%artist%,"%artist%","None")
+REM ALBUM_PERFORMER $if(%albumartist%,"%albumartist%","None")
+TITLE $if(%album%,"%album%","%foldername%")
+$select %track%,0
+FILE "%filenameext%" WAVE
+  TRACK %track% AUDIO
+    TITLE $if(%title%,"%title%","%filename%")
+    PERFORMER $if(%albumartist%,"%albumartist%",$if(%artist%,"%artist%","None"))[
+    REM COMMENT "%comment%"]
+    REM TIME %_length%
+    INDEX 01 00:00:00
+$endselect
+$endselect
+$document_close

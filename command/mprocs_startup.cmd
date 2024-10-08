@@ -6,6 +6,5 @@ C:\Users\User\Bin\mprocs\mprocs.exe ^
   "C:\Users\User\Source\autohotkey\AHK-KeyMap\KeyMap_User.ahk" ^
 	"C:\Users\User\Source\autohotkey\ShortScript\ShortScript.ahk" ^
 	"C:\Users\User\Source\goldendict\GoldenDictOCR\GoldenDictOCR.ahk" ^
-	"C:\Users\User\Source\autohotkey\Autocomplete\Autocomplete_User.ahk" ^
 	"C:\Users\User\Source\autohotkey\AutoHotKey_MouseGesture\MG_User_User.ahk" ^
-	"C:\Users\User\Github\SETUP-note\autohotkey\User.ahk"
+	"C:\Users\User\Github\My_Setup\autohotkey\User.ahk"

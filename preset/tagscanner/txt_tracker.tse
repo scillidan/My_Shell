@@ -1,0 +1,40 @@
+﻿# Tagscanner export script
+
+$file_name %albumartist% - %album% (%year%).txt
+$file_notes Release generator for TorrentPier/TBDev
+$file_encoding utf-8
+$file_writebom 1
+
+$document_open
+$select %filepath%,0
+
+// release title //
+
+(%genre%) %albumartist% - %album% - %year% ['['%isrc%']'], %_codec% (tracks+.cue), %_bitrate% kbps
+
+// release info //
+
+'['align=center']''['size=24']''['b']'%albumartist% - %album%'['/b']''['/size']''['/align']''['hr']'
+'['img=right']' -link to cover- '['/img']'[
+'['b']'ISRC'['/b']': %isrc%][
+'['b']'Label'['/b']': %publisher%][
+'['b']'Country'['/b']': %country%]
+'['b']'Genre'['/b']': %genre%
+'['b']'Year'['/b']': %year%
+'['b']'Length'['/b']': %_totallength%
+'['b']'Rip type'['/b']': tracks+.cue
+'['b']'Audio codec'['/b']': %_codec% [(%_codec_profile%)]
+'['b']'Bitrate'['/b']': %_bitrate% kbps
+
+'['b']'Tracklist'['/b']':
+$select %filenameext%,0
+'['color=gray']'%track%.'['/color']' %artist% - %title% '['color=gray']'(%_length%)'['/color']'
+$endselect
+
+'['b']'Additional information'['/b']':
+'['spoiler="EAC"']''['/spoiler']'
+'['spoiler="CUE"']''['/spoiler']'
+'['spoiler="Audiocheker"']''['/spoiler']'
+$endselect
+
+$document_close

@@ -1,0 +1,17 @@
+# Tagscanner export script
+
+$file_name D:\home\tagscanner.m3u
+$file_notes 0
+$file_encoding ansi
+$file_writebom 0
+$file_relativepaths 0
+
+$document_open
+$select %filepath%,0
+#EXTM3U
+$select %filenameext%,0
+#EXTINF:"%title%","%filename%","%artist%","%comment%","%copyright%"
+%fullfilenameext%
+$endselect
+$endselect
+$document_close
