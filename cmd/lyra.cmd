@@ -1,0 +1,1 @@
+C:\Users\User\Bin\broot\x86_64-pc-windows-gnu\broot.exe --conf C:\Users\User\Github\My_Setup\broot\conf.hjson C:\Users\User\Github\BYYA-site\content.zh\docs\lyra-b --sort-by-date

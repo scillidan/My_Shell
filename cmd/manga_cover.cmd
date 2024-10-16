@@ -1,0 +1,1 @@
+C:\Users\User\Script\komga-cover-extractor\venv\Scripts\python.exe C:\Users\User\Script\komga-cover-extractor\komga_cover_extractor.py -c "True" -cq "70" -p .

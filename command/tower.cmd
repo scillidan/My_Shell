@@ -1,1 +1,0 @@
-C:\Users\User\Bin\broot\x86_64-pc-windows-gnu\broot.exe --conf C:\Users\User\Github\SETUP-note\broot\conf.hjson C:\Users\User\Github\BYYA-site\content.zh\docs\tower\tower --sort-by-date
