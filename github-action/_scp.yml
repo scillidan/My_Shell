@@ -1,0 +1,18 @@
+      # Refer to https://github.com/appleboy/scp-action
+      - name: Rename public to html
+        run: mv public html
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: copy file to server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USERNAME }}
+          key: ${{ secrets.VPS_KEY }}
+          password: ${{ secrets.VPS_PASSWORD }}
+          port: ${{ secrets.VPS_PORT }}
+          source: "./html/*"
+          target: "/var/www/sub-domains/<SubDomain>/"
+          rm: true
+          overwrite: true
+          strip_components: 2

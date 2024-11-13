@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><XnView_script version="1.0" name="crop_120px">
+    <Border back_color="#ffffff" frame1_radius="0" frame1_color="#f8f8f8" frame1_width="120" frame2_radius="0" frame2_color="#000000" frame2_width="-1" frame3_radius="0" frame3_color="#ffffff" frame3_width="-1" antialias="true"/>
+    <Crop method="1" value_1="120" value_2="120" value_3="0" value_4="240"/>
+    <Output folder="" filename="{Filename}" case="1" startIndex="1" format="JPEG">
+        <Options overwrite="3" orgDate="false" keepMeta="false" keepICC="false" keepFolder="true" checkFilesize="false" keepParentFolder="true" keepExtension="false" delOrg="true" multipage="false" allPages="false" openExplorer="false" beep="true" openBrowser="false" clearItems="true"/>
+        <JPEG quality="90" progressive="true" optimizeHuffman="true" rebuildThumb="false" orgQuality="true" DCTMethod="2" subSampling="0" smoothFactor="0"/>
+    </Output>
+</XnView_script>

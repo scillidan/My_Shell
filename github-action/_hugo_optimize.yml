@@ -1,0 +1,7 @@
+      # Refer to https://github.com/b-m-f/hugo-picture-optimization
+      - name: Install pkgs for hugo-picture-optimization
+        run: sudo apt install -y libimage-exiftool-perl jpegoptim optipng imagemagick && sudo apt-get install coreutils
+      - name: Make hugo_optimized.sh executeable
+        run: sudo chmod +x ./hugo_optimized.sh
+      - name: Run hugo_optimized.sh
+        run: ./hugo_optimized.sh
