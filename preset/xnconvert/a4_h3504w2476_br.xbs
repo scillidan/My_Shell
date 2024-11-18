@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><XnView_script version="1.0" name="a4_h3504w2476_br">
+    <Rotate byexif="false" angle="90" smooth="false" crop="false" color="#ffffff" orient="0"/>
+    <Resize mode="6" width="800" height="3404" unit="0" ratio="true" orientation="false" enlarge="0" resample="7" gamma_correct="false"/>
+    <Resize mode="5" width="2376" height="600" unit="0" ratio="true" orientation="false" enlarge="1" resample="7" gamma_correct="false"/>
+    <Canvas_resize mode="0" width="2476" height="3504" width2="100" height2="100" width3="1" height3="1" unit="0" relative="false" ratio="true" orientation="false" color="#000000" colorFlag="false" colorAt="0" alpha="255" position="4"/>
+    <Output folder="" filename="_a4_{Filename}" case="1" startIndex="1" format="PNG">
+        <Options overwrite="3" orgDate="false" keepMeta="false" keepICC="false" keepFolder="true" checkFilesize="false" keepParentFolder="true" keepExtension="false" delOrg="false" multipage="false" allPages="false" openExplorer="false" beep="true" openBrowser="false" clearItems="true"/>
+        <PNG level="6" interlaced="false" filter="0"/>
+    </Output>
+</XnView_script>

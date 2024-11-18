@@ -1,0 +1,20 @@
+line: kodo
+limit: 3
+streamers:
+  视频patterns1*:
+    copyright: 1
+    source: 转载来源
+    tid: 230 # https://biliup.github.io/tid-ref.html
+    cover: ""
+    title: 标题
+    desc_format_id: 0
+    desc: 简介
+    dolby: 0 # 杜比音效
+    lossless_music: 0 # Hi-Res
+    dynamic: ""
+    subtitle:
+      open: 0
+      lan: ""
+    tag: "biliup"
+    dtime: ~
+    open_subtitle: false
