@@ -1,0 +1,35 @@
+settings:
+  width: 132
+  height: 24
+  title: autocast
+  shell: zsh
+  type-speed: 150ms
+  timeout: 90s
+
+instructions:
+  - !Marker autocast
+  - !Command
+    command: "autocast -h"
+  - !Wait 1s
+  - !Clear
+
+  - !Marker Example
+    command: cat autocast.yaml
+  - !Wait 1s
+  - !Command
+    command: autocast autocast.yaml autocast.cast
+
+  - !Marker Play it
+  - !Command
+    command: asciinema play autocast.cast
+  - !Wait 1s
+
+  - !Marker End
+  - !Command
+    command: "# Thank you for watching!"
+  - !Wait 3s
+
+  # Cleanup
+  - !Command
+    command: rm autocast.cast
+    hidden: true
