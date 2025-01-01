@@ -1,0 +1,5 @@
+procs:
+  postgres:
+    shell: "C:\\Users\\User\\Bin\\postgresql\\pgsql\\bin\\postgres.exe -D C:\\Users\\User\\Data\\miniflux"
+  miniflux:
+    shell: "timeout 5 && C:\\Users\\User\\Bin\\miniflux.exe -config-file miniflux.conf"

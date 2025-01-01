@@ -1,0 +1,61 @@
+keybindings {
+  global {
+    ocr {
+      # The lines below are commented out. Remove the leading '#' characters to make them operative.
+      # manualBlock = meta shift Q
+      # autoBlock = meta shift A
+    }
+  }
+}
+
+lookup {
+  targets = [
+    ${LOOKUP_TARGETS.reverso}
+    ${LOOKUP_TARGETS.deepl}
+    ${LOOKUP_TARGETS.googleImages}
+  ]
+}
+
+ocr: {
+  engine: mangaocr
+  # watchDir: "<dir>"
+
+  tesseract: {
+    # (File path) The path to Tesseract’s executable
+    path: "tesseract"
+  }
+
+  mangaocr: {
+    pythonPath: "C:/Users/User/Git/manga-ocr/Scripts/python.exe"
+  }
+
+  ocrspace: {
+    engine: 1
+  }
+}
+
+LOOKUP_TARGETS {
+  reverso {
+    symbol = DEP
+    name = Reverso
+    url = "https://www.reverso.net/text-translation#sl=jpn&tl=eng&text={}"
+  }
+  deepl {
+    symbol = DEP
+    name = DeepL
+    url = "https://www.deepl.com/translator#ja/en/{}"
+  }
+  googleImages {
+    symbol = GLI
+    name = Google Images
+    url = "https://www.google.com/search?q={}%20site%3Ajp&tbm=isch"
+    newTab = true
+  }
+}
+
+integrations: {
+  agent: {
+    enable: no
+    host: "127.0.0.1:9001"
+  }
+}
