@@ -8,6 +8,7 @@ C:\Users\User\Bin\mprocs\mprocs.exe ^
 	"cd C:\Users\User\Github\My_Setup_Temp && C:\Users\User\Bin\Git\bin\bash.exe C:\Users\User\Bin\git-sync\git-sync -n -s" ^
 	"cd C:\Users\User\Github\My_Shell && C:\Users\User\Bin\Git\bin\bash.exe C:\Users\User\Bin\git-sync\git-sync -n -s" ^
 	"cd C:\Users\User\Github\My_Table && C:\Users\User\Bin\Git\bin\bash.exe C:\Users\User\Bin\git-sync\git-sync -n -s" ^
+	"cd C:\Users\User\Github\My_Project && C:\Users\User\Bin\Git\bin\bash.exe C:\Users\User\Bin\git-sync\git-sync -n -s" ^
 	"cd C:\Users\User\Github\_\table && C:\Users\User\Bin\Git\bin\bash.exe C:\Users\User\Bin\git-sync\git-sync -n -s" ^
 	"cd C:\Users\User\Github\_\asset && C:\Users\User\Bin\Git\bin\bash.exe C:\Users\User\Bin\git-sync\git-sync -n -s" ^
 	"cd C:\Users\User\Github\_\gpt_share && C:\Users\User\Bin\Git\bin\bash.exe C:\Users\User\Bin\git-sync\git-sync -n -s" ^
